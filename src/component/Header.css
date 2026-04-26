@@ -1,0 +1,55 @@
+/* 🔵 Top Header */
+.top-header {
+  background-color: #1f8aa5;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo h2 {
+  margin: 0;
+  cursor: pointer;
+}
+
+.right-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.icon {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+/* ⚫ Menu Bar */
+.menu-bar {
+  background-color: #2e2e2e;
+  display: flex;
+  justify-content: center;
+  gap: 40px;   /* 🔥 THIS FIXES STICKING ISSUE */
+  padding: 12px 0;
+}
+
+.menu-bar span {
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+.menu-bar span:hover {
+  color: #00e1ff;
+}
+
+.menu-bar .active {
+  border-bottom: 2px solid #00e1ff;
+  color: #00e1ff;
+}

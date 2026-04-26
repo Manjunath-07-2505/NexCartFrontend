@@ -1,0 +1,114 @@
+.cart-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 20px;
+}
+
+.cart-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Product card layout */
+.cart-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Product Image */
+.cart-image {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Product Details */
+.cart-details {
+  flex: 1;
+}
+
+/* Quantity buttons */
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.qty-controls button {
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Remove button right side */
+.delete-btn{
+background:#ff4d4d;
+color:white;
+border:none;
+padding:8px 16px;
+border-radius:20px;
+font-size:14px;
+cursor:pointer;
+}
+/* Cart summary card */
+.cart-summary{
+  background:white;
+  padding:25px;
+  border-radius:14px;
+  margin-top:25px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* rows for subtotal and delivery */
+.row{
+  display:flex;
+  justify-content:space-between;
+  font-size:16px;
+  margin-bottom:12px;
+  color:#555;
+}
+
+/* divider line */
+.cart-summary hr{
+  border:none;
+  border-top:1px solid #ddd;
+  margin:12px 0;
+}
+
+/* total row */
+.total{
+  display:flex;
+  justify-content:space-between;
+  font-size:20px;
+  font-weight:bold;
+  color:#000;
+}
+
+/* checkout button */
+.checkout-btn{
+  width:100%;
+  padding:14px;
+  margin-top:18px;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  font-weight:bold;
+  background:linear-gradient(135deg,#6c4cff,#8a6cff);
+  color:white;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.checkout-btn:hover{
+  transform:scale(1.02);
+}
